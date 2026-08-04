@@ -58,7 +58,7 @@ Add on the propellers and double check that each screw is put on correctly. Now 
 ### Original Planning Whiteboard
 This isn't really necessary, but here is an image of the original planning whiteboard that I used to first start this project. 
 
-Insert Image Here
+![Planning Whiteboard](Images/OriginalDronePlanningWhiteboard.png)
 
 ### Overview and License
 This project has taught me a lot about electronics, and how wiring works. I am improving on my CAD (which isn't very good), and had been a good opportunity for me to start learning new CAD skills, and skills pertaining to drones in general. I used the MIT Licence. 
