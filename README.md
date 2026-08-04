@@ -14,6 +14,7 @@ Just like I mentioned before, I always wanted to make/have a drone, so the idea 
  - 100ft Minimum flight height
  - Being Able to have the drone do a flip
  - Be able to survive crashes (I am a beginner, and I know I will crash a few times)
+
 Most of these are basic things that all drones can do, but the one thing (other than a 3d printed frame) that isn't always found is the drone goggles with a live feed camera. This was one baseline that my dad really wanted out of this drone. Because he is funding the project, I can't argue (and I really wanted that too, so I would argue anyways). I knew that this would dramatically increase the price of this projects, but that's ok.
 
 ### Process of Designing a Drone
