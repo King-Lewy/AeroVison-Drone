@@ -1,0 +1,6 @@
+Type of Filament,Best for Frame,Ok for Frame,Individual Comonents,Prototyping,Notes about filament
+Carbon Fiber Nylon,TRUE,FALSE,FALSE,FALSE,"This is a very strong and stiff filament that is perfect for a drone frame. Make sure to dry it before trying to 3d print. It is also quite light for how strong it is, which is perfect for a drone. "
+Carbon Fiber PETG,FALSE,TRUE,FALSE,FALSE,"An alternative filament to 3d print the frame. It is cheaper and easier to print, but isn't quite as strong, and can be kind of brittle. "
+TPU,FALSE,FALSE,TRUE,FALSE,"This is a very good filament to use for individual components. Because it can bend without breaking, it is good for camera mounts/protection, reducing vibrations, landing bumpers, and antenna holders. "
+PETG,FALSE,FALSE,TRUE,TRUE,"Petg can be very useful for components that need no flex, but still needs to be cheap, strong and easy to print. GPS mount, receiver pods, and spacer etc. This can also be used for the second stage of prototyping, to test tolerances, before printing with expensive nylon filament. "
+PLA / PLA+,FALSE,FALSE,FALSE,TRUE,"This a very good first protoype material, because it is cheap, and you can make sure the design fits and everything works before printing out of a different material to have strength and better results. "
