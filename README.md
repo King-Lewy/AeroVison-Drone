@@ -44,7 +44,7 @@ These are some of the big components for the drone that I decided needed to be r
 
 # Build Instructions
 - **Order All of the Necessary Parts**
-Go through the BOM and buy all of the parts on the list. I would try to buy the controller first (just trust me, I will explain later) so it arrives first. For the 3d printed parts, 3d print them yourself, or have somebody print them for you.
+Go through the BOM and buy all of the parts on the list. Tip: try to get the controller as soon as possible, so you can start practicing on an online simulator. For the 3d printed parts, 
 - **Assemble the Frame**
 I will have different parts that I will have to add onto the main frame of the drone. Fore example there will be motor guards and a camera guard. Also, it is good to first fully assemble the frame with all of the standoffs first, just so you can know what it will look like, then disassemble it.
 - **Electronics Installation**
