@@ -1,7 +1,7 @@
 # AeroVison-Drone
 A drone with a camera that connects to drone goggles to fly in first person view. 3d printed and custom frame. All parts were researched and chosen to not be too expensive, but still high quality. Sub $1000.
 
-Insert Picture Here (When it gets designed)
+![Assembly](Images/Full%20Assembly%20CAD.png)
 
 ### Why a Drone?
 Every since my brother and I got a 3d printed a few years ago, we have wanted to design a drone, and 3d print the frame of it. But, we have never actually got around to doing it, either because we were busy, lazy, or didn't think that we could fund it. But, it was always still in our minds (at least my mind). Making a drone sounded really cool and fun, even though me personally, I didn't know anything about them, how they worked, or how expensive they would be, other than that I assumed that it would cost A LOT to make, which kind of discouraged me. 
@@ -59,6 +59,20 @@ Add on the propellers and double check that each screw is put on correctly. Now 
 This isn't really necessary, but here is an image of the original planning whiteboard that I used to first start this project. 
 
 ![Planning Whiteboard](Images/OriginalDronePlanningWhiteboard.png)
+
+### Camera Mount/Antenna Holder/Main Frame
+The parts that I specifically designed were the camera mount, antenna holder, and the mainframe. The assembly is made up of these parts, and a compilation of other parts that I found online for free, such as the motors, camera, vtx, and the actual antennas. I did put together all of the parts of the drone assembly, but the parts that I actually designed were these ones. 
+
+![Drone Frame](Images/Main%20Drone%20Frame.png)
+![Camera Mount](Images/Camera%20Mount.png)
+![Antenna Holder](Images/Antenna%20Holder.png)
+
+## Example of 3d Printed Frame
+So, I am still in the design, and buying parts phase of this project, but I 3d printed an example frame to show myself about the size of the drone, and to make sure the screw holes were right. For this edition, I 3d printed it out of PETG translucent, and low infill and 2 wall loops, just because this is a prototype, and not meant to actually fly. It still holds the same concept of the size and shape of drone, and is the same design that I will print later, just not as much filament. 
+
+This is only the base frame, not the top plate, or the standoffs. 
+
+![3d print](Images/3d-Printed-Frame-(PETG-Translucent).png)
 
 ### Overview and License
 This project has taught me a lot about electronics, and how wiring works. I am improving on my CAD (which isn't very good), and had been a good opportunity for me to start learning new CAD skills, and skills pertaining to drones in general. I used the MIT Licence. 
