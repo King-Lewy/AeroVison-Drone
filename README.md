@@ -58,6 +58,10 @@ Now go into Betaflight, and configure it how you want to fly it. You need to cal
 - **Final Add On**
 Add on the propellers and double check that each screw is put on correctly. Now you are ready to fly FPV!!
 
+
+Wiring Diagram
+![Wiring Diagram](Images/Wiring%20Diagram.png)
+
 ### Original Planning Whiteboard
 This isn't really necessary, but here is an image of the original planning whiteboard that I used to first start this project. 
 
