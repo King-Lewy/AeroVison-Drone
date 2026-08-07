@@ -74,6 +74,23 @@ This is only the base frame, not the top plate, or the standoffs.
 
 ![3d print](Images/3d-Printed-Frame-(PETG-Translucent).png)
 
+
+## Understanding CAD Files
+I have a method the I used that I think is organized, but I am putting a guide, just so it is easy to know where to find any files. All of the CAD files will be found in the CAD folder, and there are a few images of the CAD in the images folder. This is how it is organized
+
+Folders:
+- Assembly (All parts included, finished design, .step and .f3d)
+- Main Frame (Only the base frame and the top plate with standoffs connecting them, .step and .f3d)
+
+Individual Files (.step)
+- Antenna Holder 
+- Camera Mount 
+- Motors
+- Propellers
+- Camera + VTX + Antenna
+
+I don't have a stack model, but the dimension are accurate to the real thing. Don't worry. Also, I have .step files for all of the little things like mounts, and I added .f3d files for the bigger things like the assembly, and the mainframe. I hope this helps. 
+
 ### Overview and License
 This project has taught me a lot about electronics, and how wiring works. I am improving on my CAD (which isn't very good), and had been a good opportunity for me to start learning new CAD skills, and skills pertaining to drones in general. I used the MIT Licence. 
 
