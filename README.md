@@ -42,6 +42,9 @@ All of the "big" parts that I have chosen for this drone, I have done an analysi
  - FC+ESC Stack
 These are some of the big components for the drone that I decided needed to be really well thought out. The only other big thing that I didn't do an analysis for, was the goggles, because they were the only relatively low cost goggles that still had good camera options.
 
+### Stack
+For this build, you can use two different stack options, including the speedybee V4, and speedybee V5. This was designed to accommodate either stack, and there is a wiring diagram for both as well. In the BOM, there is only the V4, because it is cheaper to buy that, but the other one works as well. Some reasons to be able to switch between them, are shipping times, quality, and if you have any personal preference. Either one works great!
+
 # Build Instructions
 - **Order All of the Necessary Parts**
 Go through the BOM and buy all of the parts on the list. Tip: try to get the controller as soon as possible, so you can start practicing on an online simulator. For the 3d printed parts, I would first 3d print all of the parts in a prototype material (pla/petg) and make sure that all of the electronics fit. This also helps you know if there are any problems before printing with a more expensive filament, and it gives you build experience!
@@ -52,7 +55,9 @@ For the frame, there are a few thing that you will need. The base plate, the sta
 - **Wiring**
 This is the hardest part of the whole project. You will need to follow the wiring diagram below to make sure that everything is wired correctly.
 
-To explain the wiring diagram, the four motors are soldered onto the esc (the bottom of the stack) as well as the cord that connects to the battery, and the capacitor (little cylinder like thing). The order of the motor wires doesn't matter, but for the red and black big wire, the red goes to the positive side, and the black on the negative. The capacitor is the same way. Then, the esc, and fc are connected with a wire provided in the stack kit, and the fc will be on the top. There are two main things that connect to the FC, the receiver, and the VTX. The receiver is connected on the specific soldering pods as shown below, but in the patter of (-,gnd)(5V,4V5)(TX,R2)(RX,T2). The VTX is the other part that connects to the receiver, but there is no welding required for this one. On the side of the stack (the one shown in the diagram), there is a wire plug port for a 6 pin wire, which you plug in, then you plug in the other end into the VTX. For this specific design, you have to use a 4 pin to 6 pin wire, because the VTX only has a 4 pin option, and the stack only has a 6 pin, but thankfully, there are wires (in the BOM to account for this). Then, the camera and antennas connect to the vtx in their specific ports as shown in the image.
+To explain the wiring diagram (speedybee V4), the four motors are soldered onto the esc (the bottom of the stack) as well as the cord that connects to the battery, and the capacitor (little cylinder like thing). The order of the motor wires doesn't matter, but for the red and black big wire, the red goes to the positive side, and the black on the negative. The capacitor is the same way. Then, the esc, and fc are connected with a wire provided in the stack kit, and the fc will be on the top. There are two main things that connect to the FC, the receiver, and the VTX. The receiver is connected on the specific soldering pods as shown below, but in the patter of (-,gnd)(5V,4V5)(TX,R2)(RX,T2). The VTX is the other part that connects to the receiver, but there is no welding required for this one. On the side of the stack (the one shown in the diagram), there is a wire plug port for a 6 pin wire, which you plug in, then you plug in the other end into the VTX. For this specific design, you have to use a 4 pin to 6 pin wire, because the VTX only has a 4 pin option, and the stack only has a 6 pin, but thankfully, there are wires (in the BOM to account for this). Then, the camera and antennas connect to the vtx in their specific ports as shown in the image.
+
+For the V5 option, the wiring is the same, just different places on the stack. Review the diagram while soldering to make sure you are using the same ports. This image better shows that ports for the 6 pin wire that connects to the VTX, because it has the top and bottom of the FC. The top part connects to the receiver, and the bottom one connects to the esc, and the VTX. 
 
 While wiring, it is very important that you first screw everything into place (motors, vtx, camera, stack) and mark on the wires where you need to cut them to be the proper length for your specific drone. You want to cut it a little longer than you expect, because a little extra wire isn't bad, and if you mess up, you can then cut the wire again to fix it (to the proper size). After you mark where they need to be cut, you actually need to take off the electronics, so you can actually wire them together. This starts with the motors that you will need to weld onto the esc (review the diagram), then you need to weld on the receiver (also the diagram), and then you put the stack on top of each other, and plug those together. Then, you screw back in all of the electronics, making sure that you have the right motors in the right spots (because you cut the wires to that specific length), and your stack in the right direction. After you have screwed in the VTX, antennas, and camera, you thread the camera wire through the middle of the stack, and plug that into the vtx. Then you plug in the two antennas to the VTX, and finally plug the VTX into the FC. When you plug in the battery, make sure to use the smoke stopper first, so if you messed up on your welds, it won't fry your system. Very important. 
 
@@ -74,8 +79,10 @@ Now go into Betaflight, and configure it how you want to fly it. You need to cal
 Add on the propellers and double check that each screw is put on correctly. If you want you can add lock tight to the screws so they don't unscrew. That is totally optional though. Make sure to add both of the battery straps each time you fly. Now you are ready to fly FPV!!
 
 
-# Wiring Diagram
+# Wiring Diagram (SpeedyBee V4)
 ![Wiring Diagram](Images/Wiring%20Diagram.png)
+# Wiring Diagram (SpeedyBee V5)
+![Wiring Diagram](Images/Wiring%20Diagram%20SpeedyBee%20V5.png)
 
 ### Original Planning Whiteboard
 This isn't really necessary, but here is an image of the original planning whiteboard that I used to first start this project. 
