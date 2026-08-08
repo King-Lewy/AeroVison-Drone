@@ -92,9 +92,9 @@ The parts that I specifically designed were the camera mount, antenna holder, an
 ## Example of 3d Printed Frame
 So, I am still in the design, and buying parts phase of this project, but I 3d printed an example frame to show myself about the size of the drone, and to make sure the screw holes were right. For this edition, I 3d printed it out of PETG translucent, and low infill and 2 wall loops, just because this is a prototype, and not meant to actually fly. It still holds the same concept of the size and shape of drone, and is the same design that I will print later, just not as much filament. 
 
-This is only the base frame, not the top plate, or the standoffs. 
+I printed the standoffs, even though in the actual thing they will be aluminum, but I attached the top and bottom plate, as well as the camera mount, and the antenna mount, which I printed out of tpu. I screwed them all together, and this is what I got.  
 
-![3d print](Images/3d-Printed-Frame-(PETG-Translucent).png)
+![3d print](Images/Prototype-Drone-Model.png)
 
 
 # BOM 
