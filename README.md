@@ -40,6 +40,7 @@ All of the "big" parts that I have chosen for this drone, I have done an analysi
  - 6s Batteries
  - Filament (When to use which filament)
  - FC+ESC Stack
+
 These are some of the big components for the drone that I decided needed to be really well thought out. The only other big thing that I didn't do an analysis for, was the goggles, because they were the only relatively low cost goggles that still had good camera options.
 
 ### Stack
