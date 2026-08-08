@@ -137,7 +137,7 @@ I have a method the I used that I think is organized, but I am putting a guide, 
 Folders:
 - Assembly (All parts included, finished design, .step and .f3d)
 - Main Frame (Only the base frame and the top plate with standoffs connecting them, .step and .f3d)
-- .STL (Every part that will be printed)
+- .STL (Camera/Antenna mounts, Frame)(The parts you will 3d print)
 
 Individual Files (.step)
 - Antenna Holder 
