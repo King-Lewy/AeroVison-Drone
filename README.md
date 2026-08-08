@@ -44,22 +44,37 @@ These are some of the big components for the drone that I decided needed to be r
 
 # Build Instructions
 - **Order All of the Necessary Parts**
-Go through the BOM and buy all of the parts on the list. Tip: try to get the controller as soon as possible, so you can start practicing on an online simulator. For the 3d printed parts, 
-- **Assemble the Frame**
-I will have different parts that I will have to add onto the main frame of the drone. Fore example there will be motor guards and a camera guard. Also, it is good to first fully assemble the frame with all of the standoffs first, just so you can know what it will look like, then disassemble it.
-- **Electronics Installation**
-Put all of the electronics into the spots that they are going to be on the final build. Line up the wires according to the wiring diagram (Found in images). Screw in each part, and make sure that each wire is lined up with the correct port.
-- **Soldering**
-Now you have to cut all of the wires to the length needed to be soldered onto the FC/ESC. You also need to make sure that the wires aren't too tight or too loose, and do good soldering. This is probably the hardest part of the whole entire build. Make sure that you follow the wiring diagram.
-- **Tape/Zip tie the wires down**
-To protect the wires from moving, and during crashes, tape around all of the wires (especially the ones on the arms, and make sure they are covered. You can also zip tie the wires down as well, but they might be a little less protected in a crash that way. 
+Go through the BOM and buy all of the parts on the list. Tip: try to get the controller as soon as possible, so you can start practicing on an online simulator. For the 3d printed parts, I would first 3d print all of the parts in a prototype material (pla/petg) and make sure that all of the electronics fit. This also helps you know if there are any problems before printing with a more expensive filament, and it gives you build experience!
+
+- **Assemble the Frame (prototype)**
+For the frame, there are a few thing that you will need. The base plate, the standoffs, the top plate, and the mounting pieces for the camera and antenna. You will assemble the frame first with the prototype material 3d print, to make sure that everything works well. You can also mount all of the electronics if you want, also to make sure the spacing is correct. It all should be fine, but case by case it might be different, and you don't want any problems to occur.
+
+- **Wiring**
+This is the hardest part of the whole project. You will need to follow the wiring diagram below to make sure that everything is wired correctly.
+
+To explain the wiring diagram, the four motors are soldered onto the esc (the bottom of the stack) as well as the cord that connects to the battery, and the capacitor (little cylinder like thing). The order of the motor wires doesn't matter, but for the red and black big wire, the red goes to the positive side, and the black on the negative. The capacitor is the same way. Then, the esc, and fc are connected with a wire provided in the stack kit, and the fc will be on the top. There are two main things that connect to the FC, the receiver, and the VTX. The receiver is connected on the specific soldering pods as shown below, but in the patter of (-,gnd)(5V,4V5)(TX,R2)(RX,T2). The VTX is the other part that connects to the receiver, but there is no welding required for this one. On the side of the stack (the one shown in the diagram), there is a wire plug port for a 6 pin wire, which you plug in, then you plug in the other end into the VTX. For this specific design, you have to use a 4 pin to 6 pin wire, because the VTX only has a 4 pin option, and the stack only has a 6 pin, but thankfully, there are wires (in the BOM to account for this). Then, the camera and antennas connect to the vtx in their specific ports as shown in the image.
+
+While wiring, it is very important that you first screw everything into place (motors, vtx, camera, stack) and mark on the wires where you need to cut them to be the proper length for your specific drone. You want to cut it a little longer than you expect, because a little extra wire isn't bad, and if you mess up, you can then cut the wire again to fix it (to the proper size). After you mark where they need to be cut, you actually need to take off the electronics, so you can actually wire them together. This starts with the motors that you will need to weld onto the esc (review the diagram), then you need to weld on the receiver (also the diagram), and then you put the stack on top of each other, and plug those together. Then, you screw back in all of the electronics, making sure that you have the right motors in the right spots (because you cut the wires to that specific length), and your stack in the right direction. After you have screwed in the VTX, antennas, and camera, you thread the camera wire through the middle of the stack, and plug that into the vtx. Then you plug in the two antennas to the VTX, and finally plug the VTX into the FC. When you plug in the battery, make sure to use the smoke stopper first, so if you messed up on your welds, it won't fry your system. Very important. 
+
+For this part, you will screw down and measure based off of the Nylon-cf frame (the real thing, not prototype) and screw down all of the electronics/motors there. You only need to use the base of the frame, at this point don't worry about the standoffs or the top piece.
+
+- **Assemble the Frame Part 2 (The real deal)**
+Now that you have all of the wiring done, and the electronics all screwed into the right places, you need to add the standoffs, and the top plate. You will screw M3 screws from the top plate down into the standoff, and from the main frame body up into the standoffs. The standoffs are threaded, so you don't have to worry about bolts. 
+
+- **Tape the wires down**
+Now that you have all of the wires and electronics in the right place, you need to tape them down. This is to protect them, and to keep the from wiggling. The main place you will tape is the X arms, where the wires connecting to the motors are, so those are protected during a crash. you might think that it is weird that the receiver is not screwed in anywhere, and if you can't find a place to tuck that in, you can tape that down as well. All of the other wires will probably be fine to not tape down, but it is a case by case thing.
+
+- **The Battery**
+There is more than just adding the battery when you are talking about this drone. You will first (as I mentioned above) use the smoke stopper when you plug in, to make sure that it is fine. If you hear two seperate beeps, then you are all set, and you can remove the smoke stopper, and re-plug it in. If you don't, then there is a problem with the soldering, and you will have to review it. Then, you will need to attach your battery pad onto the top plate. It is pretty big, so you will first have to trim it to the size of your top plate, then stick it on. When you go to fly, you will have to put the battery onto that top plate, then you have to strap the battery in, with the battery straps. You need to order two of these, so that you can strap it down on both sides of the battery. You can either strap it around only the top plate, or both the top and bottom plate. Your choice.
+
 - **Software configuration**
-Now go into Betaflight, and configure it how you want to fly it. You need to calibrate the sensors, test the motor direction to make sure they are the right way.
+Now go into Betaflight, and configure it how you want to fly it. You need to calibrate the sensors, test the motor direction to make sure they are the right way. This is all personal preference, so you can configure it how you want. I have not done this yet (because I haven't built it yet), and I will record what I did after I do it myself.
+
 - **Final Add On**
-Add on the propellers and double check that each screw is put on correctly. Now you are ready to fly FPV!!
+Add on the propellers and double check that each screw is put on correctly. If you want you can add lock tight to the screws so they don't unscrew. That is totally optional though. Make sure to add both of the battery straps each time you fly. Now you are ready to fly FPV!!
 
 
-Wiring Diagram
+# Wiring Diagram
 ![Wiring Diagram](Images/Wiring%20Diagram.png)
 
 ### Original Planning Whiteboard
