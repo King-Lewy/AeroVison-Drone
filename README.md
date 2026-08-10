@@ -80,10 +80,8 @@ Now go into Betaflight, and configure it how you want to fly it. You need to cal
 Add on the propellers and double check that each screw is put on correctly. If you want you can add lock tight to the screws so they don't unscrew. That is totally optional though. Make sure to add both of the battery straps each time you fly. Now you are ready to fly FPV!!
 
 
-# Wiring Diagram (SpeedyBee V4)
-![Wiring Diagram](Images/Wiring%20Diagram.png)
-# Wiring Diagram (SpeedyBee V5)
-![Wiring Diagram](Images/Wiring%20Diagram%20SpeedyBee%20V5.png)
+# Wiring Diagram
+![Wiring Diagram](Images/CompleteWiringDiagram.png)
 
 ### Original Planning Whiteboard
 This isn't really necessary, but here is an image of the original planning whiteboard that I used to first start this project. 
