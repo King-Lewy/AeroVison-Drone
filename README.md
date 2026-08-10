@@ -1,10 +1,10 @@
 # AeroVison-Drone
 A drone with a camera that connects to drone goggles to fly in first person view. 3d printed and custom frame. All parts were researched and chosen to not be too expensive, but still high quality. Sub $1000.
 
-![Assembly](Images/Full%20Assembly%20CAD.png)
+![Assembly](Images/DroneAssembly.png)
 
 Assembly with battery on top. 
-![Assembly with battery](Images/Drone-with-battery-dimensions-box.png)
+![Assembly with battery](Images/DroneAssemblywithBattery.png)
 
 ### Why a Drone?
 Every since my brother and I got a 3d printed a few years ago, we have wanted to design a drone, and 3d print the frame of it. But, we have never actually got around to doing it, either because we were busy, lazy, or didn't think that we could fund it. But, it was always still in our minds (at least my mind). Making a drone sounded really cool and fun, even though me personally, I didn't know anything about them, how they worked, or how expensive they would be, other than that I assumed that it would cost A LOT to make, which kind of discouraged me. 
